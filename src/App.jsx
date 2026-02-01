@@ -10,6 +10,7 @@ import perrito from "../src/assets/Perrito triste (1).jpg";
 import jajajaja from "../src/assets/Jajajaja.jpg";
 import mePhone from "../src/assets/Me_ “when someone removes my phone ku charger”.jpg";
 import funCat from "../src/assets/the fun cat.jpg";
+import Happydog from "../src/assets/Happy dog.jpg";
 
 function App() {
   const [noCount, setNoCount] = useState(0);
@@ -98,7 +99,7 @@ function App() {
   if (accepted) {
     return (
       <div className="final">
-        <img src="../public/Happy dog.jpg" alt="" />
+        <img src={ Happydog } />
         <h1>YAYYYYYY!!!!!!!!! Kiss Kiss</h1>
       </div>
     );
